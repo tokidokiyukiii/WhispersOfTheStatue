@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c436f4a8d63bb4242a9f9c2c7d406b9a, type: 3}
+  m_Name: PrizePool
+  m_EditorClassIdentifier: Assembly-CSharp::GachaDatabase
+  allItems:
+  - {fileID: 11400000, guid: 9a7a59d922d20d14e80c4a87a27a4fb2, type: 2}
+  - {fileID: 11400000, guid: 5dad8412a91d7db4a91a1c075766eaf2, type: 2}
+  - {fileID: 11400000, guid: d26042d76c12296448f3df2af4d7a20c, type: 2}
+  - {fileID: 11400000, guid: 781bd5bfafc2da84386b156afa0abfc5, type: 2}
+  - {fileID: 11400000, guid: 5f4e0e2fb5d0c004698444cdfe94e02f, type: 2}
+  - {fileID: 11400000, guid: 6baa2f3b5dfb18d4b8ed2dd68cbffdc5, type: 2}
+  - {fileID: 11400000, guid: dd1f5daa353db0d4d9a27ad9885ee941, type: 2}
+  - {fileID: 11400000, guid: dee6501355cdc854aa28b1bf008d953b, type: 2}
+  - {fileID: 11400000, guid: 5584c86d444adea40a0e5ff9df1ad7c8, type: 2}
+  - {fileID: 11400000, guid: 46f2e39b663ad1b4198453c13472ede4, type: 2}
+  - {fileID: 11400000, guid: 70016b7d2e6d88a4b98c20438e51d7e0, type: 2}
+  - {fileID: 11400000, guid: 2333c287824ea4440a107d191772c47e, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: OldAdventurer2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Skuld
+  npcPortrait: {fileID: -5615041109936842368, guid: b12091506a361c34c840e25d0e578bb9,
+    type: 3}
+  dialogueLines:
+  - "The meat sizzles. The spice bites. Eat it. Feel the power coil in your hands.
+    Now you\u2019re ready to push forward. The altar isn\u2019t far."
+  typingSpeed: 0.05
+  autoProgressLines: 01
+  endDialogueLines: 01
+  autoProgressDelay: 1.5
+  choices: []
+  offeredQuest: {fileID: 0}
+  questOfferDialogueIndex: -1
+  enableSkipButton: 0

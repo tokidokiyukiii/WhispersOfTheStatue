@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Adventurer1
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Aeacus
+  npcPortrait: {fileID: -1067800199436942952, guid: 4f54932a727e6be4b9b3f165c91bf54e,
+    type: 3}
+  dialogueLines:
+  - If you're out of coins, check the <color=orange>pots and chests</color> around
+    the village.
+  - "But remember: keys only come from the statues. Keep pulling\u2014you'll feel
+    the click when it's right."
+  typingSpeed: 0.05
+  autoProgressLines: 0101
+  endDialogueLines: 0001
+  autoProgressDelay: 1.5
+  choices: []
+  offeredQuest: {fileID: 0}
+  questOfferDialogueIndex: -1
+  enableSkipButton: 0

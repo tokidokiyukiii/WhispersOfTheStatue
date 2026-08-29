@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Bishop0
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Bishop
+  npcPortrait: {fileID: -8773453825056629232, guid: 5f22ee5b08cd7ab468c9317994e6f5dd,
+    type: 3}
+  dialogueLines:
+  - "Welcome to the archives. I\u2019ve read the ledgers of those who walked before
+    you. Most failed not from lack of courage, but from lack of <color=orange>foresight</color>."
+  - "Fortuna\u2019s system is cyclical. You\u2019ll find silver coins here, but sometimes
+    you\u2019ll need bronze for old paths, or gold for the depths. The <color=orange>Guild
+    Receptionist</color> can <color=orange>convert them</color>."
+  - Convert <color=orange>ten bronze coins to silver</color>, then use what you have
+    wisely and pull for a <color=orange>silver key</color>.
+  - "The next <color=orange>staircase</color> demands it. Study the flow. Don\u2019t
+    just spend blindly."
+  - May Fortuna bless you.
+  - "Conversion isn\u2019t cheating\u2014it\u2019s strategy."
+  typingSpeed: 0.05
+  autoProgressLines: 010101010101
+  endDialogueLines: 000000000101
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 3
+    choices:
+    - No, thank you.
+    - Alrighty!
+    nextDialogueIndexes: 0400000005000000
+    panelNamesToOpen: []
+    questAcceptChoiceIndex: 1
+  offeredQuest: {fileID: 11400000, guid: d4ea2026b8f824a41b8ee1ba0033ff87, type: 2}
+  questOfferDialogueIndex: 5
+  enableSkipButton: 0

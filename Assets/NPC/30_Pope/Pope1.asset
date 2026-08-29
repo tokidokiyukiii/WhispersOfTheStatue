@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Pope1
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Pope
+  npcPortrait: {fileID: 7002261746033227675, guid: a9dd60cf9561fc942866c03ebc33aabb,
+    type: 3}
+  dialogueLines:
+  - "The altar does not accept <color=orange>half-measures</color>. Gather what you\u2019ve
+    earned. Every coin, every dish, every seal matters."
+  - "The <color=orange>Cornucopia</color>  cannot be forged until you\u2019ve proven
+    you understand all three trials."
+  typingSpeed: 0.05
+  autoProgressLines: 0101
+  endDialogueLines: 0001
+  autoProgressDelay: 1.5
+  choices: []
+  offeredQuest: {fileID: 0}
+  questOfferDialogueIndex: -1
+  enableSkipButton: 0

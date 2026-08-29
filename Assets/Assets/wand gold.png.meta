@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 8fd6fbd548a4e5645a74f57b7f313e31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5589184598486332472
+    second: wand gold_0
+  - first:
+      213: 2345904682218236688
+    second: wand gold_1
+  - first:
+      213: -658444750086326621
+    second: wand gold_2
+  - first:
+      213: -663814617290563238
+    second: wand gold_3
+  - first:
+      213: 4984083785707498907
+    second: wand gold_4
+  - first:
+      213: 2033242527792514637
+    second: wand gold_5
+  - first:
+      213: -7578091247325697694
+    second: wand gold_6
+  - first:
+      213: -7393248193110406382
+    second: wand gold_7
+  - first:
+      213: -7087788326666517913
+    second: wand gold_8
+  - first:
+      213: -7019210889522841684
+    second: wand gold_9
+  - first:
+      213: 559076330128397099
+    second: wand gold_10
+  - first:
+      213: -632790001586475322
+    second: wand gold_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wand gold_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 220
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834bcd097c5c09d40800000000000000
+      internalID: 5589184598486332472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5687607756eaf542a6c811de9369a8f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wand gold_0: 5589184598486332472
+      wand gold_1: 2345904682218236688
+      wand gold_10: 559076330128397099
+      wand gold_11: -632790001586475322
+      wand gold_2: -658444750086326621
+      wand gold_3: -663814617290563238
+      wand gold_4: 4984083785707498907
+      wand gold_5: 2033242527792514637
+      wand gold_6: -7578091247325697694
+      wand gold_7: -7393248193110406382
+      wand gold_8: -7087788326666517913
+      wand gold_9: -7019210889522841684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

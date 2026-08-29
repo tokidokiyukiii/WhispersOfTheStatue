@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 6f9a3121b51e4f24384bb3c70c2640b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7735257437133188707
+    second: wand blue_0
+  - first:
+      213: 4940727123569288824
+    second: wand blue_1
+  - first:
+      213: 7159133121112210707
+    second: wand blue_2
+  - first:
+      213: 7840395740083520562
+    second: wand blue_3
+  - first:
+      213: -7086771903723133666
+    second: wand blue_4
+  - first:
+      213: 1168477374196416114
+    second: wand blue_5
+  - first:
+      213: -1636527853701992612
+    second: wand blue_6
+  - first:
+      213: 2447200434903705814
+    second: wand blue_7
+  - first:
+      213: -1176209872869155145
+    second: wand blue_8
+  - first:
+      213: 2360767541920061280
+    second: wand blue_9
+  - first:
+      213: -8966336929762707142
+    second: wand blue_10
+  - first:
+      213: -3845681488866804704
+    second: wand blue_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wand blue_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 220
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9e74844c2cf3649a9e45f92944159f
+      internalID: 266684383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0f25655a5432a404e9cc2ac7469629dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wand blue_0: -7735257437133188707
+      wand blue_1: 4940727123569288824
+      wand blue_10: -8966336929762707142
+      wand blue_11: -3845681488866804704
+      wand blue_12: 266684383
+      wand blue_2: 7159133121112210707
+      wand blue_3: 7840395740083520562
+      wand blue_4: -7086771903723133666
+      wand blue_5: 1168477374196416114
+      wand blue_6: -1636527853701992612
+      wand blue_7: 2447200434903705814
+      wand blue_8: -1176209872869155145
+      wand blue_9: 2360767541920061280
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

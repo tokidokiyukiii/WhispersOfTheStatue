@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Pope0
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Pope
+  npcPortrait: {fileID: 7002261746033227675, guid: a9dd60cf9561fc942866c03ebc33aabb,
+    type: 3}
+  dialogueLines:
+  - "You\u2019ve walked the trials. But look at the altar\u2026 Fortuna\u2019s vessels
+    are empty. Her blessings grow thin. The cycle of depletion must end."
+  - "To restore Fortuna\u2019s sacred vessels and complete your journey, you must
+    first <color=orange>prove your mastery</color> of all three layers. <color=orange>Collect
+    one of each key and one of each cooked food</color>."
+  - "These are the tokens of survival, strategy, and sacrifice. When you\u2019ve
+    gathered them, I will bestow upon you the <color=orange>Cornucopia</color>."
+  - "<color=orange>Place it upon the altar</color>, and Fortuna\u2019s vessels will
+    be filled once more."
+  - May Fortuna bless you.
+  - "Home\u2026 yes, the veil thins for those who restore what was broken. But hear
+    this: the Cornucopia is not a key you carry\u2014it is a promise you fulfill."
+  - Place it upon the altar, let Fortuna's vessels drink deep, and only then will
+    the <color=orange>path behind you</color> mend itself.
+  typingSpeed: 0.05
+  autoProgressLines: 01010101010101
+  endDialogueLines: 00000000010001
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 3
+    choices:
+    - I don't care.
+    - I can finally go home!
+    nextDialogueIndexes: 0400000005000000
+    panelNamesToOpen: []
+    questAcceptChoiceIndex: 1
+  offeredQuest: {fileID: 11400000, guid: e92c3d2a929209849a25ffab143f93b7, type: 2}
+  questOfferDialogueIndex: 5
+  enableSkipButton: 0

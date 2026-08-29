@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4e7dfe235fc094483484f8d5a6f450, type: 3}
+  m_Name: SilverKey
+  m_EditorClassIdentifier: Assembly-CSharp::GachaItems
+  itemName: Silver Key
+  itemSprite: {fileID: -8347414814739083954, guid: 5776e8c6ca13e3141b3a0b377055f1f3,
+    type: 3}
+  rarity: 2
+  weight: 1
+  statueId: 1
+  statueTier: 1
+  itemType: 2
+  value: 1
+  resourceTier: 1
+  foodType: 1

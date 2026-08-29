@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8fa830c83a55b44a8d660be48281116, type: 3}
+  m_Name: Summon
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  questID: Fortuna's Call_ba33edd7
+  questName: Fortuna's Call
+  description: To walk the tiers, you must understand Fortuna's rhythm. Summon ten
+    times from the bronze statue. Each pull is a step toward remembering who you
+    were meant to be.
+  objectives:
+  - objectiveID: 
+    description: Summon at Statue
+    type: 4
+    targetFoodType: 0
+    targetCoinTier: 0
+    targetKeyTier: 0
+    currentAmount: 0
+    requiredAmount: 10
+  - objectiveID: 
+    description: Make a Vasilopita
+    type: 0
+    targetFoodType: 4
+    targetCoinTier: 0
+    targetKeyTier: 0
+    currentAmount: 0
+    requiredAmount: 1
+  rewardData:
+    bronzeCoins: 5
+    silverCoins: 0
+    goldCoins: 0
+    cornucopia: 0
+    foodRewards:
+    - foodType: 0
+      amount: 3
+  giverNPCID: Priest
+  isRepeatable: 0
+  autoStartOnTalk: 0

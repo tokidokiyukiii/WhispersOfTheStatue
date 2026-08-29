@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Pope2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Pope
+  npcPortrait: {fileID: 7002261746033227675, guid: a9dd60cf9561fc942866c03ebc33aabb,
+    type: 3}
+  dialogueLines:
+  - The Cornucopia is not meant for your pockets. It is a vessel of renewal. Carry
+    it to the <color=orange>altar basin</color>, place it upon the stone, and watch
+    the vessels fill.
+  - "Fortuna\u2019s grace will return to this world\u2026 and the <color=orange>path</color>
+    you came from will open."
+  typingSpeed: 0.05
+  autoProgressLines: 0101
+  endDialogueLines: 0001
+  autoProgressDelay: 1.5
+  choices: []
+  offeredQuest: {fileID: 0}
+  questOfferDialogueIndex: -1
+  enableSkipButton: 0

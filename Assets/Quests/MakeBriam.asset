@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8fa830c83a55b44a8d660be48281116, type: 3}
+  m_Name: MakeBriam
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  questID: Make Vasilopita_5f31ddf8
+  questName: Steady Steps
+  description: Gather cabbage and pumpkins from the silver statue to bake Briam,
+    a hearty dish that steadies your breath and halves your stamina drain in these
+    heavy halls.
+  objectives:
+  - objectiveID: 
+    description: Collect 2 pumpkins
+    type: 0
+    targetFoodType: 6
+    targetCoinTier: 1
+    targetKeyTier: 0
+    currentAmount: 0
+    requiredAmount: 2
+  - objectiveID: 
+    description: Collect 1 cabbage
+    type: 0
+    targetFoodType: 5
+    targetCoinTier: 1
+    targetKeyTier: 0
+    currentAmount: 0
+    requiredAmount: 1
+  - objectiveID: 
+    description: Make a Briam
+    type: 0
+    targetFoodType: 8
+    targetCoinTier: 1
+    targetKeyTier: 0
+    currentAmount: 0
+    requiredAmount: 1
+  rewardData:
+    bronzeCoins: 0
+    silverCoins: 0
+    goldCoins: 0
+    cornucopia: 0
+    foodRewards:
+    - foodType: 1
+      amount: 5
+  giverNPCID: LittleBoy
+  isRepeatable: 0
+  autoStartOnTalk: 0

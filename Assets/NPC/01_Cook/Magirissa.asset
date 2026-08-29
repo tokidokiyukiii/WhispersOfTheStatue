@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Magirissa
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Magirissa
+  npcPortrait: {fileID: -6477868607629082953, guid: fd1aa2f06dcc530499c19e89b6b54646,
+    type: 3}
+  dialogueLines:
+  - Ah, hungry adventurer! Welcome to the <color=orange>Tavern</color>.
+  - I can cook your summoned ingredients into powerful dishes.
+  - Would you like to cook today?
+  - Excellent! Show me your ingredients.
+  - No worries! Come back anytime you're ready.
+  typingSpeed: 0.05
+  autoProgressLines: 0101010000
+  endDialogueLines: 0000000101
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - No
+    - Yes
+    nextDialogueIndexes: 0400000003000000
+    panelNamesToOpen:
+    - 
+    - Cooking
+    questAcceptChoiceIndex: -1
+  offeredQuest: {fileID: 0}
+  questOfferDialogueIndex: -1
+  enableSkipButton: 0

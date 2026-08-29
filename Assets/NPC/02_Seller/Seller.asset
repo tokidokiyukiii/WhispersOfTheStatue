@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Seller
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Seller
+  npcPortrait: {fileID: 9119014065032164419, guid: 4c585c4c4122e084ea07d79df52ce38c,
+    type: 3}
+  dialogueLines:
+  - Fortuna's trials don't favor the empty-handed. I trade in <color=orange>tools</color>
+    that turn luck into survival.
+  - Take a look?
+  - Excellent! Go on.
+  - May your strikes be true and your stamina hold. Return when you need an edge.
+  typingSpeed: 0.05
+  autoProgressLines: 01010000
+  endDialogueLines: 00000101
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - No
+    - Yes
+    nextDialogueIndexes: 0300000002000000
+    panelNamesToOpen:
+    - 
+    - Shop
+    questAcceptChoiceIndex: -1
+  offeredQuest: {fileID: 0}
+  questOfferDialogueIndex: -1
+  enableSkipButton: 0

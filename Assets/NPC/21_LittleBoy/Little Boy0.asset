@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Little Boy0
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Verdandi
+  npcPortrait: {fileID: -8331225376434636707, guid: 3bb7664cad8fb0a458acc138ba1be298,
+    type: 3}
+  dialogueLines:
+  - You made it up, but the air here is heavier. Your stamina drains <color=orange>faster</color>
+    higher up.
+  - "You\u2019ll need something to steady your pace. The Magirissa can prepare <color=orange>Briam</color>
+    with <color=orange>cabbages and pumpkins</color>. Pull at the <color=orange>silver</color>
+    statue to get them\u2014they only come from Fortuna\u2019s grace. "
+  - Cook it, eat it, and your stamina will drain at <color=orange>half speed</color>
+    for <color=orange>thirty seconds</color>.
+  - May Fortuna bless you.
+  - You're welcome!
+  typingSpeed: 0.05
+  autoProgressLines: 0101010101
+  endDialogueLines: 0000000101
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - No, I'm busy.
+    - Thank you for the advice!
+    nextDialogueIndexes: 0300000004000000
+    panelNamesToOpen: []
+    questAcceptChoiceIndex: 1
+  offeredQuest: {fileID: 11400000, guid: cbefd8d95c5ebe74382d3b0be111654e, type: 2}
+  questOfferDialogueIndex: 4
+  enableSkipButton: 0

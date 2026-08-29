@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8fa830c83a55b44a8d660be48281116, type: 3}
+  m_Name: TalktoPriest
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  questID: Find the Priest_c873b5c1
+  questName: Soul's Return
+  description: "Death was not the end. You stand reborn in Fortuna's village, your
+    past life a fading echo. Seek the Priest\u2014he will guide you through this
+    second chance."
+  objectives:
+  - objectiveID: 
+    description: Talk to Priest
+    type: 3
+    targetFoodType: 0
+    targetCoinTier: 0
+    targetKeyTier: 0
+    currentAmount: 0
+    requiredAmount: 1
+  rewardData:
+    bronzeCoins: 10
+    silverCoins: 0
+    goldCoins: 0
+    foodRewards: []
+  giverNPCID: Fortuna
+  isRepeatable: 0
+  autoStartOnTalk: 0

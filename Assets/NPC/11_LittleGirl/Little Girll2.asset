@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Little Girll2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Urd
+  npcPortrait: {fileID: 9106173878621100494, guid: 0fca1092a79a67540b1864b1428874f4,
+    type: 3}
+  dialogueLines:
+  - Eat apples to restore <color=orange>stamina</color>, peaches to restore <color=orange>health</color>
+    and Milopita to <color=orange>move faster</color>.
+  - "Keep your stamina up\u2014if it hits zero, you'll start to fade. Don't push
+    it!"
+  typingSpeed: 0.05
+  autoProgressLines: 0101
+  endDialogueLines: 0001
+  autoProgressDelay: 1.5
+  choices: []
+  offeredQuest: {fileID: 0}
+  questOfferDialogueIndex: -1
+  enableSkipButton: 0

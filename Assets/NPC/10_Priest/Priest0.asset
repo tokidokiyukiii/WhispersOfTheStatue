@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e4e8631d5933b4c8b839d0b4e078f5, type: 3}
+  m_Name: Priest0
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: Priest
+  npcPortrait: {fileID: 3262813141468217335, guid: 00434a4d31b100243bccdbc8b6d41615,
+    type: 3}
+  dialogueLines:
+  - 'The path ahead is unforgiving. Should your vitality fade completely, your spirit
+    will shatter. But Fortuna offers a <color=orange>second chance</color> through
+    a sacred summon. '
+  - 'Bake a <color=orange>Vasilopita</color> at the tavern: <color=orange>two apples</color>
+    and <color=orange>three peaches</color>, offered to the flames. Consume it, and
+    it will summon a protective ward.'
+  - 'Should you fall, the ward will catch your spirit and pull you back to the <color=orange>first
+    statue</color>. '
+  - Gather the fruit through her statues, bake it, and keep it close.
+  - May Fortuna bless you.
+  - May fortune favor your summons, child.
+  typingSpeed: 0.05
+  autoProgressLines: 010101010101
+  endDialogueLines: 000000000101
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 3
+    choices:
+    - I'm not interested.
+    - Let me try!
+    nextDialogueIndexes: 0400000005000000
+    panelNamesToOpen: []
+    questAcceptChoiceIndex: 1
+  offeredQuest: {fileID: 11400000, guid: b2d49d18d9044104d994c834822c637f, type: 2}
+  questOfferDialogueIndex: 5
+  enableSkipButton: 0

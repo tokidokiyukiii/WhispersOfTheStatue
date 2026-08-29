@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c436f4a8d63bb4242a9f9c2c7d406b9a, type: 3}
+  m_Name: GachaFinale
+  m_EditorClassIdentifier: Assembly-CSharp::GachaDatabase
+  allItems:
+  - {fileID: 11400000, guid: 9590f8c76a33d224a8f682a6c50b4192, type: 2}
+  - {fileID: 11400000, guid: 37c04603e6df8bb4b980646464d2e9d6, type: 2}
+  - {fileID: 11400000, guid: e963b4ad734a8dc4db47394164a76e88, type: 2}
